@@ -1,3 +1,3 @@
 ﻿# গণকযন্ত্র
-* [জাভা] (Java.md)
+* [জাভা](Java.md)
 * [সফটওয়্যার ইঞ্জিনিয়ারিং](SoftwareEngineering.md)
