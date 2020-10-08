@@ -1,9 +1,9 @@
 ## জাভা    
 
-* থ্রেড
-* জেডিবিসি
-* হাইবারনেট
-* সার্ভলেট
-* লগিং
-* টেম্পলেট ইঞ্জিন
-* মেমোরি ম্যানেজমেন্ট
+* [কনকারেন্সি এবং থ্রেডিং](Java/Thread.md)
+* [জেডিবিসি](Java/JDBC.md)
+* [হাইবারনেট](Java/Hibernate.md)
+* [সার্ভলেট](Java/JavaServlet.md)
+* [লগিং](Java/JavaLogger.md)
+* [টেম্পলেট ইঞ্জিন](Java/JavaTemplateEngine.md)
+* [মেমোরি ম্যানেজমেন্ট](Java/JavaMemoryManagement.md)
