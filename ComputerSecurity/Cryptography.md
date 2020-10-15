@@ -18,14 +18,14 @@
 **4. Authentication:** তথ্য সবসময় প্রেরক এবং প্রাপকের মধ্যেই সীমাবদ্ধ থাকে।                       
 
 **ক্রিপ্টোগ্রাফির ধরনঃ**       
-**Symmetric Key Cryptography:**     
-এই ক্রিপ্টোগ্রাফি সিস্টেমে প্রেরক এবং প্রাপক কোন তথ্য একই key দিয়ে encrypt এবং decrypt করে। এই পদ্ধতি দ্রুততম এবং সাধারন কিন্তু সমস্যা হচ্ছে প্রেরক ও প্রাপক একই key দিয়ে কাজ করবে। সুতরাং অন্য কেউ যদি key পেয়ে  যায় তাহলে মেসেজ পড়তে পারবে। Data Encryption System(DES) সবচেয়ে বেশি ব্যবহৃত হয়।              
-It is an encryption system where the sender and receiver of message use a single common key to encrypt and decrypt messages. Symmetric Key Systems are faster and simpler but the problem is that sender and receiver have to somehow exchange key in a secure manner. The most popular symmetric key cryptography system is Data Encryption System(DES).
-**Hash Functions:**    
+**1. Symmetric Key Cryptography:**      
+এই ক্রিপ্টোগ্রাফি সিস্টেমে প্রেরক এবং প্রাপক কোন তথ্য একই key দিয়ে encrypt এবং decrypt করে। এই পদ্ধতি দ্রুততম এবং সাধারন কিন্তু সমস্যা হচ্ছে প্রেরক ও প্রাপক একই key দিয়ে কাজ করবে। সুতরাং অন্য কেউ যদি key পেয়ে  যায় তাহলে মেসেজ পড়তে পারবে। Data Encryption System(DES) সবচেয়ে বেশি ব্যবহৃত হয়।                
 
-There is no usage of any key in this algorithm. A hash value with fixed length is calculated as per the plain text which makes it impossible for contents of plain text to be recovered. Many operating systems use hash functions to encrypt passwords.
-**Asymmetric Key Cryptography:**
-Under this system a pair of keys is used to encrypt and decrypt information. A public key is used for encryption and a private key is used for decryption. Public key and Private Key are different. Even if the public key is known by everyone the intended receiver can only decode it because he alone knows the private key. 
+**2. Hash Functions:**     
+এই ক্রিপ্টোগ্রাফি সিস্টেমে encrypt করার জন্য কোন key এর দরকার হয় না। কোন টেক্সটকে hash করলে সেটা সময় নির্দিষ্ট সংখ্যক ভ্যালু হয় এবং কোন hash টেক্সটকে decrypt করা যায় না। এটা সবচেয়ে বেশি ব্যবহার করা হয় পাসওয়ার্ড hash করে রাখার জন্য।               
+
+**3. Asymmetric Key Cryptography:**        
+এই সিস্টেমে ২ টা আলাদা key ব্যবহার করা হয়। একটা encrypt করার জন্য public key আর অন্যটা decrypt করার জন্য private key। এই ক্ষেত্রে public key সবাই জেনে গেলেও কোন সমস্যা নাই কারন সেটা decrypt করা যাবে শুধু private key দিয়ে।      
 
 
 * https://www.tutorialspoint.com/cryptography/origin_of_cryptography.htm#:~:text=The%20first%20known%20evidence%20of,on%20behalf%20of%20the%20kings.   
