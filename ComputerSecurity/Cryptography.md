@@ -24,7 +24,7 @@
 1. Payment applications       
 
 **List of Algorithm**  
-* [Advanced Encryption Standard (AES)](ComputerSecurity/Cryptography/AES.md)       
+* [Advanced Encryption Standard (AES)](Cryptography/AES.md)       
 * Data Encryption System(DES)      
 
 **2. Hash Functions:**     
