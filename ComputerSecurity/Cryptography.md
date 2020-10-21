@@ -20,7 +20,7 @@
 **ক্রিপ্টোগ্রাফির ধরনঃ**       
 **1. Symmetric Key Cryptography:**      
 এই ক্রিপ্টোগ্রাফি সিস্টেমে প্রেরক এবং প্রাপক কোন তথ্য একই key দিয়ে encrypt এবং decrypt করে। এই পদ্ধতি দ্রুততম এবং সাধারন কিন্তু সমস্যা হচ্ছে প্রেরক ও প্রাপক একই key দিয়ে কাজ করবে। সুতরাং অন্য কেউ যদি key পেয়ে  যায় তাহলে মেসেজ পড়তে পারবে। Data Encryption System(DES) সবচেয়ে বেশি ব্যবহৃত হয়।                
-**ব্যবহার**        
+**ব্যবহারঃ**        
 1. Payment applications       
 
 **List of Algorithm**  
@@ -29,7 +29,7 @@
 
 **2. Hash Functions:**     
 এই ক্রিপ্টোগ্রাফি সিস্টেমে encrypt করার জন্য কোন key এর দরকার হয় না। কোন টেক্সটকে hash করলে সেটা সময় নির্দিষ্ট সংখ্যক ভ্যালু হয় এবং কোন hash টেক্সটকে decrypt করা যায় না। এটা সবচেয়ে বেশি ব্যবহার করা হয় পাসওয়ার্ড hash করে রাখার জন্য।                
-**ব্যবহার**      
+**ব্যবহারঃ**      
 
 **List of Algorithm**   
 * Message-Digest algorithm 5 (MD5)     
@@ -38,10 +38,12 @@
 
 **3. Asymmetric Key Cryptography:**        
 এই সিস্টেমে ২ টা আলাদা key ব্যবহার করা হয়। একটা encrypt করার জন্য public key আর অন্যটা decrypt করার জন্য private key। এই ক্ষেত্রে public key সবাই জেনে গেলেও কোন সমস্যা নাই কারন সেটা decrypt করা যাবে শুধু private key দিয়ে। এইটা Public Key Cryptography নামে ও পরিচিত।              
-**ব্যবহার**       
+**ব্যবহারঃ**       
+* Digital signatures
 
 **List of Algorithm**   
 * RSA
+* Elliptic Curve Cryptography (ECC)
 
 
 * https://www.tutorialspoint.com/cryptography/origin_of_cryptography.htm#:~:text=The%20first%20known%20evidence%20of,on%20behalf%20of%20the%20kings.   
