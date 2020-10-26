@@ -25,7 +25,7 @@
 
 **List of Algorithm**  
 * [Advanced Encryption Standard (AES)](Cryptography/AES.md)       
-* Data Encryption System(DES)      
+* [Data Encryption System (DES)](Cryptography/DES.md)      
 
 **2. Hash Functions:**     
 এই ক্রিপ্টোগ্রাফি সিস্টেমে encrypt করার জন্য কোন key এর দরকার হয় না। কোন টেক্সটকে hash করলে সেটা সময় নির্দিষ্ট সংখ্যক ভ্যালু হয় এবং কোন hash টেক্সটকে decrypt করা যায় না। এটা সবচেয়ে বেশি ব্যবহার করা হয় পাসওয়ার্ড hash করে রাখার জন্য।                
