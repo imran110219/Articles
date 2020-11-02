@@ -4,3 +4,4 @@
 - [x] Hibernate
 - [x] Spring Boot
 - [ ] Caching
+- [ ] Event Driven Development
