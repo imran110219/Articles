@@ -24,6 +24,13 @@
 ## ORM
 - [x] Hibernate
 
-## Language 
+## Backend Language 
 - [x] Java
 - [x] Python
+
+## Frontend Language
+- [ ] Javascript
+
+## message Broker
+- [ ] RabbitMQ
+- [ ] Apache Kafka
