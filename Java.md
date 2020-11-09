@@ -7,3 +7,4 @@
 * [লগিং](Java/JavaLogger.md)
 * [টেম্পলেট ইঞ্জিন](Java/JavaTemplateEngine.md)
 * [মেমোরি ম্যানেজমেন্ট](Java/JavaMemoryManagement.md)
+* [ডিপেন্ডেন্সি ইনজেকশন](Java/DependencyInjection.md)
