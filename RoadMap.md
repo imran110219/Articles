@@ -30,7 +30,10 @@
 
 ## Frontend Language
 - [ ] Javascript
+- [ ] React
 
 ## message Broker
 - [ ] RabbitMQ
 - [ ] Apache Kafka
+
+## Operating System  
