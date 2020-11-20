@@ -20,6 +20,8 @@
 ## Logging
 
 ## Testing
+- [ ] Mockito
+- [ ] Junit
 
 ## ORM
 - [x] Hibernate
