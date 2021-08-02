@@ -48,8 +48,8 @@
 
 ## Frontend Language
 
-- [ ] Javascript
-- [ ] React
+- [x] Javascript
+- [x] React
 
 ## message Broker
 
@@ -59,7 +59,7 @@
 ## Operating System
 
 - [x] Windows
-- [ ] Lenux
+- [ ] Linux
 
 ## DevOps
 
