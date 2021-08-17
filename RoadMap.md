@@ -65,10 +65,12 @@
 
 - [ ] Docker
 - [ ] Kubernetes
+- [ ] Jenkins
 
 ## Application Architecture
 
 - [ ] Single-Page Applications
 - [ ] Microservices
+- [ ] Service Oriented Architectures
 - [ ] Serverless Architectures
 - [ ] Event Driven Architectures
