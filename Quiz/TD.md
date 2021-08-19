@@ -60,6 +60,111 @@ What is the output?
 
 **Reasoning:** The substring method is accepting two arguments.
 
+#### Q23. Consider the following Java code.
+```
+public static void main(String[] args) {
+    String x = "abc";
+    String y = "abc";
+    x.concat(y);
+    System.out.print(x);
+}
+```  
+
+What is the output?
+
+- [ ] My Thread
+- [x] Thread[My Thread,5,main]
+- [ ] Compilation Error
+- [ ] Runtime Error
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q24. What is the output of below code.
+```
+public class Parent {
+    {
+        System.out.print("A ");
+    }
+    static {
+        System.out.print("B ");
+    }
+}
+
+public class Child extends Parent {
+    {
+        System.out.print("C ");
+    }
+    static {
+        System.out.print("D ");
+    }
+    public static void main(String[] args) {
+        Child child = new Child();
+    }
+}
+```  
+
+What is the output?
+
+- [ ] A B C D
+- [x] B D A C
+- [ ] C D A B
+- [ ] A C B D
+
+**Reasoning:** The substring method is accepting two arguments.
+
+
+#### Q28. `java.util.Collections` is a: 
+
+- [x] Class
+- [ ] Interface
+- [ ] Abstract Class
+- [ ] Object
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q29. Consider the following Java program.
+
+```
+class box {
+    int width;
+    int height;
+    int length;
+}
+
+public class mainclass {
+    public static void main(String[] args) {
+        box obj1 = new box();
+        box obj2 = new box();
+        obj1.height = 1;
+        obj1.length = 1;
+        obj1.width = 1;
+        obj2 = obj1;
+        System.out.println(obj2.height);
+    }
+}
+```  
+
+What is the output?
+
+- [x] 1
+- [ ] 2
+- [ ] Runtime Error
+- [ ] Garbage Value
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q30. The concept of multiple inheritances is implemented in Java by 
+    I. Extending two or more classes
+    II. Extending one class and implementing one or more interfaces.
+    III. Implementing two or more interfaces.
+
+- [ ] II
+- [ ] I and II 
+- [X] II and III
+- [ ] III
+
+**Reasoning:** The substring method is accepting two arguments.
+
 #### Q45. Consider the following code.
 `String s1 = "yes";`    
 `String s2 = "yes";`    
