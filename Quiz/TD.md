@@ -9,6 +9,69 @@
 
 **Reasoning:** The substring method is accepting two arguments.
 
+#### Q2. Which lines will cause errors when this code is compiled?
+
+```
+abstract class Animal {
+    public abstract void makeNoise();
+    public abstract void move();
+}
+
+abstract class Canine extends Animal {
+    public void wagTail() {
+        System.out.println("Wagging");
+    }
+
+    @Override
+    public void move() {
+        System.out.println("Run");
+    }
+}
+
+class Dog extends Canine {
+
+    public void fetch() {
+        System.out.println("Fetch");
+    }
+
+    @Override
+    public void makeNoise() {
+        System.out.println("Bark");
+    }
+}
+
+public class Question2 {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.makeNoise();
+        d.move();
+        d.wagTail();
+        d.fetch();
+
+        Canine c = new Dog();
+        c.makeNoise();
+        c.move();
+        c.wagTail();
+        c.fetch();
+
+        Animal a = new Dog();
+        a.makeNoise();
+        a.move();
+        a.wagTail();
+        a.fetch();
+    }
+}
+```  
+
+What is the result if we attempt compile this code?
+
+- [x] `c.fetch();`
+- [ ] `a.move();`
+- [ ] `Canine c = new Dog(); Animal a = new Dog();` // You Cannot Assign an Object of Type Dog to a Variable Declared as typeAnimal
+- [x] `a.wagTail(); a.fetch();`
+
+**Reasoning:** The substring method is accepting two arguments.
+
 #### Q20. What will happen if we call the `run()` method instead of calling the `start()` method when starting a thread?
 
 - [ ] Each thread starts in a seperate call stack.
