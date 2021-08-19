@@ -18,6 +18,48 @@
 
 **Reasoning:** The substring method is accepting two arguments.
 
+#### Q21. Consider the following code.
+```
+public class Question21 {
+    public static void main(String[] args) {
+        System.out.println("In first main()");
+
+    }
+
+    public static void main(char[] args) {
+        System.out.println('a');
+    }
+}
+```  
+
+What is the result if we attempt compile this code?
+
+- [ ] The code is compile correctly but it will throw a runtime exception
+- [ ] The code is compile correctly and will print "a" (without quite) when it is run
+- [x] The code is compile correctly and will print "In first main()" (without quite) when it is run
+- [ ] The code will not compile and will give a "Duplicate main MethodDeclaration" error
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q22. Consider the following program:
+```
+public static void main(String[] args) {
+    String x = "abc";
+    String y = "abc";
+    x.concat(y);
+    System.out.print(x);
+}
+```  
+
+What is the output?
+
+- [ ] abcabc
+- [x] abc
+- [ ] Null
+- [ ] Compile Error
+
+**Reasoning:** The substring method is accepting two arguments.
+
 #### Q45. Consider the following code.
 `String s1 = "yes";`    
 `String s2 = "yes";`    
