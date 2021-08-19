@@ -228,6 +228,88 @@ What is the output?
 
 **Reasoning:** The substring method is accepting two arguments.
 
+#### Q37. Which of these keywords is used by the calling function to guard against the exception that is thrown by the called function?
+
+- [ ] Try
+- [ ] Throw
+- [x] Throws 
+- [ ] Catch
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q38. If you access an uninitialized local variable, what is the result?
+
+- [ ] Syntax Error
+- [x] Compile Time Error
+- [ ] Run Time Error 
+- [ ] No Error
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q40. Which of the following maps should be kept in a multi-threading environment to maintain the natural order of keys?
+
+- [x] ConcurrentSkipListMap
+- [ ] ConcurrentMap
+- [ ] TreeMap
+- [ ] ConcurrentHashMap
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q41. Consider the following Java program.
+
+```
+public class main_class {
+    public static void main(String[] args) {
+        int x = 9;
+        if(x == 9){
+            int x = 8;
+            System.out.println(x);
+        }
+    }
+}
+```  
+
+What is the output?
+
+- [ ] 9
+- [ ] 8
+- [x] Compilation Error
+- [ ] Runtime Error
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q42. We want to sort on the basis of multiple criteria. Which interface should be implemented?
+
+- [x] Comparator
+- [ ] Comparable
+- [ ] Serializeable
+- [ ] None of the above
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q43. What is the output of the following code?
+
+```
+public static void main(String[] args) {
+    Set<Integer> set = new TreeSet<Integer>();
+    set.add(3);
+    set.add((int)3.0);
+    set.add(2);
+    set.add(2);
+    set.add(new Integer(2));
+    set.add(Integer.parseInt("2"));
+
+    System.out.println(set);
+}
+```  
+
+- [ ] [3 2]
+- [ ] [3 2 2]
+- [x] [2 3]
+- [ ] [3 3 2 2 2]
+
+**Reasoning:** The substring method is accepting two arguments.
+
 #### Q44. Consider the following program.
 
 ```
