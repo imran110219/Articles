@@ -2,6 +2,8 @@
 
 ## Database
 
+- [ ] GraphQL
+
 **Relational**
 
 - [x] Mysql
