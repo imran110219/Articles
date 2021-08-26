@@ -72,6 +72,91 @@ What is the result if we attempt compile this code?
 
 **Reasoning:** The substring method is accepting two arguments.
 
+#### Q3. Which of the following are unchecked exceptions in Java.
+(Select all that apply.)
+
+- [ ] Runtime Exception
+- [x] ClassCast Exception
+- [ ] NullPointer Exception
+- [ ] IOException
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q4. Consider the following program:
+
+```
+package com.turing.java;
+
+public class Test {
+    public static void main(String[] args) {
+        Super s = new Subclass();
+        s.foo();
+    }
+}
+
+class Super {
+
+    public void foo() {
+        System.out.println("Super");
+    }
+}
+
+class Subclass extends Super {
+    static void foo() {
+        System.out.println("Subclass");
+    }
+}
+```  
+
+What is the output?
+
+- [ ] Super
+- [ ] Subclass
+- [ ] Runtime Error
+- [x] Compile Time Error
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q5. Which of the following doesn't have an index-based structure?
+
+- [ ] List
+- [x] Map
+- [ ] Set
+- [ ] TreeMap
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q6. Consider the following program:
+
+```
+abstract class demo {
+    public int a;
+    demo(){
+        a = 10;
+    }
+    abstract final public void get();
+}
+
+class Test extends demo {
+    final public void get() {
+        System.out.println("a = " + a);
+    }
+
+    public static void main(String[] args) {
+        Test obj = new Test();
+        obj.get();
+    }
+}
+
+```  
+
+What is the output?
+
+- [ ] 30
+- [ ] 10
+- [ ] 20
+- [x] Compilation    Error
+
 #### Q20. What will happen if we call the `run()` method instead of calling the `start()` method when starting a thread?
 
 - [ ] Each thread starts in a seperate call stack.
