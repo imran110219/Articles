@@ -155,7 +155,52 @@ What is the output?
 - [ ] 30
 - [ ] 10
 - [ ] 20
-- [x] Compilation    Error
+- [x] Compilation Error
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q7. What is the output of the following code?
+
+```
+List<String> list1 = new ArrayList();
+list1.add("foo");
+
+List<String> list2 = list1;
+List<String> list3 = new ArrayList(list2);
+
+list1.clear();
+list2.add("bar");
+list3.add("baz");
+
+System.out.print(list1);
+System.out.print(list2);
+System.out.print(list3);
+```  
+
+- [ ] [bar], [bar], [foo, baz]
+- [ ] [bar, baz], [bar, baz], [bar, baz]
+- [ ] [], [bar], [foo, baz]
+- [x] [], [bar], [bar, baz]
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q8. Which of the following declarations of an array contains an error?
+
+- [ ] int x[] = int[10];
+- [ ] int[] y =  new int[5];
+- [ ] float d[] = {1, 2, 3};
+- [x] int a[] = {1, 2, 3}; int b[]; b=a;
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q10. The ........... statement can be used to handle an exception that is not caught by any of the prevoius catch statements.
+
+- [ ] Catch
+- [ ] Throw
+- [ ] Finally
+- [x] Try
+
+**Reasoning:** The substring method is accepting two arguments.
 
 #### Q20. What will happen if we call the `run()` method instead of calling the `start()` method when starting a thread?
 
