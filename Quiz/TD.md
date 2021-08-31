@@ -308,8 +308,8 @@ What is the output?
 
 #### Q28. `java.util.Collections` is a: 
 
-- [x] Class
-- [ ] Interface
+- [ ] Class
+- [x] Interface
 - [ ] Abstract Class
 - [ ] Object
 
@@ -410,8 +410,8 @@ What is the output?
 
 #### Q42. We want to sort on the basis of multiple criteria. Which interface should be implemented?
 
-- [x] Comparator
-- [ ] Comparable
+- [ ] Comparator
+- [x] Comparable
 - [ ] Serializeable
 - [ ] None of the above
 
@@ -485,8 +485,8 @@ Which of the following boolean expression is true?
 
 #### Q47. Each method in a Java class must have unique name.
 
-- [ ] Not Necessarily
-- [x] Flase
+- [x] Not Necessarily
+- [ ] False
 - [ ] True
 - [ ] None of the above
 
