@@ -1,2 +1,1 @@
-
-* Fault Tolerance
+- Fault Tolerance
