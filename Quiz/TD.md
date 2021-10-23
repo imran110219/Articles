@@ -61,7 +61,7 @@ public class Question2 {
         a.fetch();
     }
 }
-```  
+```
 
 What is the result if we attempt compile this code?
 
@@ -73,6 +73,7 @@ What is the result if we attempt compile this code?
 **Reasoning:** The substring method is accepting two arguments.
 
 #### Q3. Which of the following are unchecked exceptions in Java.
+
 (Select all that apply.)
 
 - [ ] Runtime Exception
@@ -106,7 +107,7 @@ class Subclass extends Super {
         System.out.println("Subclass");
     }
 }
-```  
+```
 
 What is the output?
 
@@ -148,7 +149,7 @@ class Test extends demo {
     }
 }
 
-```  
+```
 
 What is the output?
 
@@ -175,7 +176,7 @@ list3.add("baz");
 System.out.print(list1);
 System.out.print(list2);
 System.out.print(list3);
-```  
+```
 
 - [ ] [bar], [bar], [foo, baz]
 - [ ] [bar, baz], [bar, baz], [bar, baz]
@@ -187,7 +188,7 @@ System.out.print(list3);
 #### Q8. Which of the following declarations of an array contains an error?
 
 - [ ] int x[] = int[10];
-- [ ] int[] y =  new int[5];
+- [ ] int[] y = new int[5];
 - [ ] float d[] = {1, 2, 3};
 - [x] int a[] = {1, 2, 3}; int b[]; b=a;
 
@@ -205,13 +206,14 @@ System.out.print(list3);
 #### Q20. What will happen if we call the `run()` method instead of calling the `start()` method when starting a thread?
 
 - [ ] Each thread starts in a seperate call stack.
-- [x] If we invoke the run() method  from the main thread, run() method will go on to the current call stack rather than going to the begining of a new call stack.
+- [x] If we invoke the run() method from the main thread, run() method will go on to the current call stack rather than going to the begining of a new call stack.
 - [ ] Both A & B
 - [ ] None of the above.
 
 **Reasoning:** The substring method is accepting two arguments.
 
 #### Q21. Consider the following code.
+
 ```
 public class Question21 {
     public static void main(String[] args) {
@@ -223,7 +225,7 @@ public class Question21 {
         System.out.println('a');
     }
 }
-```  
+```
 
 What is the result if we attempt compile this code?
 
@@ -235,6 +237,7 @@ What is the result if we attempt compile this code?
 **Reasoning:** The substring method is accepting two arguments.
 
 #### Q22. Consider the following program:
+
 ```
 public static void main(String[] args) {
     String x = "abc";
@@ -242,7 +245,7 @@ public static void main(String[] args) {
     x.concat(y);
     System.out.print(x);
 }
-```  
+```
 
 What is the output?
 
@@ -254,6 +257,7 @@ What is the output?
 **Reasoning:** The substring method is accepting two arguments.
 
 #### Q23. Consider the following Java code.
+
 ```
 public static void main(String[] args) {
     String x = "abc";
@@ -261,7 +265,7 @@ public static void main(String[] args) {
     x.concat(y);
     System.out.print(x);
 }
-```  
+```
 
 What is the output?
 
@@ -273,6 +277,7 @@ What is the output?
 **Reasoning:** The substring method is accepting two arguments.
 
 #### Q24. What is the output of below code.
+
 ```
 public class Parent {
     {
@@ -294,7 +299,7 @@ public class Child extends Parent {
         Child child = new Child();
     }
 }
-```  
+```
 
 What is the output?
 
@@ -305,8 +310,7 @@ What is the output?
 
 **Reasoning:** The substring method is accepting two arguments.
 
-
-#### Q28. `java.util.Collections` is a: 
+#### Q28. `java.util.Collections` is a:
 
 - [ ] Class
 - [x] Interface
@@ -335,7 +339,7 @@ public class mainclass {
         System.out.println(obj2.height);
     }
 }
-```  
+```
 
 What is the output?
 
@@ -346,15 +350,50 @@ What is the output?
 
 **Reasoning:** The substring method is accepting two arguments.
 
-#### Q30. The concept of multiple inheritances is implemented in Java by 
+#### Q30. The concept of multiple inheritances is implemented in Java by
+
     I. Extending two or more classes
     II. Extending one class and implementing one or more interfaces.
     III. Implementing two or more interfaces.
 
 - [ ] II
-- [ ] I and II 
-- [X] II and III
+- [ ] I and II
+- [x] II and III
 - [ ] III
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q36. Consider the following code.
+
+```
+public class ExceptionTest {
+    public Integer divide(int a, int b){
+        try{
+            return a/b;
+        }
+        finally {
+            System.out.println("finally");
+        }
+    }
+
+    public static void main(String[] args){
+        ExceptionTest exceptionTest = new ExceptionTest();
+        try {
+            System.out.println(exceptionTest.divide(10,0));
+        }
+        catch (Exception ex){
+            System.out.println("Division by 0!");
+        }
+    }
+}
+```
+
+After compiling and running this code, what is the result?
+
+- [ ] Division by 0!
+- [ ] Division by 0!finally
+- [ ] finally
+- [x] finallyDivision by 0!
 
 **Reasoning:** The substring method is accepting two arguments.
 
@@ -362,7 +401,7 @@ What is the output?
 
 - [ ] Try
 - [ ] Throw
-- [x] Throws 
+- [x] Throws
 - [ ] Catch
 
 **Reasoning:** The substring method is accepting two arguments.
@@ -371,7 +410,7 @@ What is the output?
 
 - [ ] Syntax Error
 - [x] Compile Time Error
-- [ ] Run Time Error 
+- [ ] Run Time Error
 - [ ] No Error
 
 **Reasoning:** The substring method is accepting two arguments.
@@ -397,7 +436,7 @@ public class main_class {
         }
     }
 }
-```  
+```
 
 What is the output?
 
@@ -431,7 +470,7 @@ public static void main(String[] args) {
 
     System.out.println(set);
 }
-```  
+```
 
 - [ ] [3 2]
 - [ ] [3 2 2]
@@ -458,7 +497,7 @@ public class Question44 {
         }
     }
 }
-```  
+```
 
 What is the output?
 
@@ -470,9 +509,10 @@ What is the output?
 **Reasoning:** The substring method is accepting two arguments.
 
 #### Q45. Consider the following code.
-`String s1 = "yes";`    
-`String s2 = "yes";`    
-`String s3 = new String(s1);`   
+
+`String s1 = "yes";`  
+`String s2 = "yes";`  
+`String s3 = new String(s1);`
 
 Which of the following boolean expression is true?
 
@@ -483,11 +523,82 @@ Which of the following boolean expression is true?
 
 **Reasoning:** The substring method is accepting two arguments.
 
+#### Q46. Consider the following program.
+
+```
+public class Test {
+
+    public static void main(String[] args) {
+        Subclass s1 = new Subclass();
+        s1.foo();
+
+        Super s = new Subclass();
+        s.foo();
+    }
+}
+class Super {
+    private void foo() {
+        System.out.println("Super");
+    }
+}
+
+class Subclass extends Super {
+    public void foo() {
+        System.out.println("Subclass");
+    }
+}`
+```
+
+What is the output?
+
+- [ ] Compile time error at line 7
+- [ ] Compile time error at line 10
+- [x] Compile time error at line 7 and 10
+- [ ] Works fine and prints "Subclass"
+
+**Reasoning:** The substring method is accepting two arguments.
+
 #### Q47. Each method in a Java class must have unique name.
 
 - [x] Not Necessarily
 - [ ] False
 - [ ] True
 - [ ] None of the above
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q48. Consider the following code.
+
+`Collection<String> collection;`
+`collection.add("foo");`
+`collection.add("bar");`
+`collection.add("baz");`
+`collection.forEach(System.out::println);`
+
+We want to print the strings in the same order that they were added to the collection. Which of following code snippets should be inserted into the above code, at line 2?
+(Select all that apply.)
+
+- [x] `collection = new LinkedList()`
+- [ ] `collection = new TreeSet();`
+- [x] `collection = new ArrayList();`
+- [x] `collection = new LinkedHashSet();`
+
+**Reasoning:** The substring method is accepting two arguments.
+
+#### Q49. Consider the following program.
+
+```
+List<String> countries = Arrays.asList("Germany", "England", "China",
+"Denmark", "Brazil", "France", "Australia");
+Optional<String> countryName = countries.stream().reduce((c1, c2) -> c1.length()>c2.length()?c1:c2);
+countryName.ifPresent(System.out::println);
+```
+
+What is the output?
+
+- [ ] China
+- [ ] Germany, England, Denmark
+- [x] Australia
+- [ ] Brazil, France
 
 **Reasoning:** The substring method is accepting two arguments.
