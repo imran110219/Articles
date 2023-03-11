@@ -7,7 +7,8 @@
 
 ## Redundancy and replication
 
+## Load Balancer
 
+## Caching
 
-- Fault Tolerance
-dfdfxcx
+## 
