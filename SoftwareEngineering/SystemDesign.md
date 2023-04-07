@@ -3,6 +3,8 @@
 
 ## Horizontal and vertical scaling
 
+## Trade offs
+
 ## CAP theorem
 
 ## Redundancy and replication
@@ -12,4 +14,4 @@
 
 ## Caching
 
-## 
+## Database
