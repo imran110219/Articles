@@ -32,9 +32,13 @@ CA ডেটাবেজ একই সাথে Consistency এবং Availabili
 
 **CP ডেটাবেজ**
 
-
+CP ডেটাবেজ আপনাকে Consistency এবং Partition Tolerance দিবে। এখানে আপনি Availability পাবেন না। যখন ২ টা নোড বিচ্ছিন্ন হবে তখন এইটা অটোমেটিকালি Inconsistent নোড গুলো অফ করে দিবে এবং পুনরায় কানেকশান পেলে তখন আপনার ডেটাবেজ Availabile হবে। MongoDB হল CP ডেটাবেজ।
 
 **AP ডেটাবেজ**
+
+AP ডেটাবেজ Availability এবং Partition Tolerance এক সাথে পাওয়ার জন্য। কিন্তু এইখানে আপনি Consistency পাবেন না। কারণ আপনার সিস্টেম সব সময় Availabile থাকবে একাধিক নোড বিচ্ছিন্ন হওয়ার সত্ত্বেও। সেই ক্ষেত্রে Inconsistent নোড গুলোতে পূর্বের ভার্সনের ডাটাই দেখাবে, তখন আপনার সিস্টেম Consistency হারাবে। Apache Cassandra এই ধরনের একটা ডেটাবেজ। 
+
+উপরোক্ত ৩ টা অপশন থেকে আপনার প্রয়োজন অনুযায়ী যে কোন একটা বেছে নিতে হবে। এইটাই ক্যাপ থিওরেম এর মূল কথা। 
 
 ## Redundancy and replication
 
