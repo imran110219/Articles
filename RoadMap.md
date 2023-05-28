@@ -20,6 +20,8 @@
 
 ## Caching
 
+- [x] Redis
+
 ## Logging
 
 - [x] Log4j
@@ -67,7 +69,7 @@
 
 - [ ] Docker
 - [ ] Kubernetes
-- [ ] Jenkins
+- [x] Jenkins
 
 ## Application Architecture
 
