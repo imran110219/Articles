@@ -47,4 +47,6 @@ AP ডেটাবেজ Availability এবং Partition Tolerance এক স�
 
 ## Caching
 
+## Content delivery network
+
 ## Database
