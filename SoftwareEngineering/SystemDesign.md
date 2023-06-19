@@ -10,9 +10,9 @@ Scaling সিস্টেম ডিজাইনের একটা গুরু
 **Horizontal Scaling**
 এই ক্ষেত্রে আমরা আমাদের একটা সার্ভারের সাথে আমরা একাধিক মেশিন যুক্ত করি। যখন কোন রিকুয়েস্ট আসবে তখন লোড ব্যালান্সার বলে দিবে কোন মেশিন আমাদেরকে রেসপন্স দিবে। 
 
-| First Header  | Second Header |
+| Vertical Scaling  | Horizontal Scaling |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| It is easy to implement  | It is difficult to implement  |
 | Content Cell  | Content Cell  |
 
 ## Trade offs
