@@ -14,6 +14,10 @@ Scaling সিস্টেম ডিজাইনের একটা গুরু
 | ------------- | ------------- |
 | It is easy to implement  | It is difficult to implement  |
 | Maintenance is cheaper and it is less complex because of the number of nodes you will need to manage.  | Maintainance is complex as you will need to manage a lot of machines. |
+| Adding a new machine is far more expensive than upgrading old ones. | Initial costs are high but buying a new machine with low processing power is more affordable. |
+| Failures will lead to loss of service. | In case of failure in a machine, others can still provide the service. |
+| Data exchange becomes relatively straightforward as we only have one machine. | Having multiple machines requires complex protocols for exchanging data between them. |
+| Since we have one device, tasks can't be spread. Some level of parallel processing is achievable using a multi-threading programming model, but it's limited to the machine's capacity. | Traffic/programming tasks can be distributed between the machines. |
 
 ## Trade offs
 
