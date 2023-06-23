@@ -13,7 +13,7 @@ Scaling সিস্টেম ডিজাইনের একটা গুরু
 | Vertical Scaling  | Horizontal Scaling |
 | ------------- | ------------- |
 | It is easy to implement  | It is difficult to implement  |
-| Content Cell  | Content Cell  |
+| Maintenance is cheaper and it is less complex because of the number of nodes you will need to manage.  | Maintainance is complex as you will need to manage a lot of machines. |
 
 ## Trade offs
 
