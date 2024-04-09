@@ -117,6 +117,13 @@ for (int j=0; j < NUMBER_OF_TASKS; j++) {
 
 ### ভাল মন্তব্য
 
+#### আইনি মন্তব্য
+অনেক সময় কোডের ভেতরে কিছু তথ্য রাখা দরকার হয়। যেমনঃ কে কোড লিখছে, কোন সালে লেখা, লাইসেন্স বিষয়ক তথ্য ইত্যাদি। 
+```
+// Copyright (C) 2003,2004,2005 by Object Mentor, Inc. All rights reserved.
+// Released under the terms of the GNU General Public License version 2 or later.
+```
+
 #### তথ্যপূর্ণ মন্তব্য
 
 #### অভিপ্রায়ের ব্যাখ্যা
