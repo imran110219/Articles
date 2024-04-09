@@ -115,22 +115,6 @@ for (int j=0; j < NUMBER_OF_TASKS; j++) {
 ### কমেন্টস খারাপ কোডের প্রতিস্থাপক নয় 
 আমাদেরকে কোড করার সময় খেয়াল রাখতে হবে ভাল এবং ক্লিন কোড লেখার। আমরা যদি ভাবি আমাদের খারাপ কোডকে কমেন্ট দিয়ে মেক আপ দিব তাহলে এটা স্ট্যান্ডার্ড না। 
 
-### Explain Yourself in Code
-
-### Good Comments
-
-#### Legal Comments
-
-#### Informative Comments
-
-#### Explanation of Intent
-
-#### Clarification
-
-#### Warning of Consequences
-
-#### TODO Comments
-
 ### ভাল মন্তব্য
 
 #### তথ্যপূর্ণ মন্তব্য
