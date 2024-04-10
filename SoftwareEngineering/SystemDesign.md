@@ -69,4 +69,7 @@ AP ডেটাবেজ Availability এবং Partition Tolerance এক স�
 
 CDN সাধারণত দুই ধরনের হয়। পুশ CDN আর পুল CDN। 
 
+![CDN](https://github.com/imran110219/Articles/blob/master/SoftwareEngineering/Images/CDN.png)
+
+
 ## Database
