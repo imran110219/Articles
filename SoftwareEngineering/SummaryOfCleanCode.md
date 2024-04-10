@@ -131,6 +131,15 @@ for (int j=0; j < NUMBER_OF_TASKS; j++) {
 #### স্পষ্টীকরণ
 
 #### TODO মন্তব্য
+কোন কাজ যদি ভবিষ্যতে করার প্লান করা হয় তাহলে সেটা কোডের সাথে নোট করে রাখা হয়। 
+```
+//TODO-MdM these are not needed
+// We expect this to go away when we do the checkout model
+protected VersionInfo makeVersion() throws Exception
+{
+    return null;
+}
+```
 
 ### খারাপ মন্তব্য
 
