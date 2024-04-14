@@ -76,7 +76,11 @@ CDN সাধারণত দুই ধরনের হয়। পুশ CDN আ�
 
 Relational database management system (RDBMS) হল ডেটা সাজিয়ে রাখা নির্দিষ্ট একটি টেবিলে। ACID হল রিলেশনাল ডেটাবেজের কিছু গুরুত্বপূর্ণ বৈশিষ্ট্য। 
 
-1. Atomicity - Each transaction is all or nothing
+**Atomicity**
+
+এটমোসিটি হল ডেটাবেজে যখন নির্দিষ্ট কিছু কাজ হবে তখন তখন সব গুলো অপারেশন সম্পূর্ণ হবে অথবা সব অপারেশন ব্যর্থ হবে। যেমন কোন খাবর যদি অনলাইনে অর্ডার করি তাহলে পেমেন্ট, ডেলিভারিম্যানের নোটিফিকেশন, হোটেলের কাছে নোটিফিকেশন সবগুলো হতে হবে না হলে কোনটাই হওয়া যাবে না। 
+
 2. Consistency - Any transaction will bring the database from one valid state to another
-3. Isolation - Executing transactions concurrently has the same results as if the transactions were executed serially
-4. Durability - Once a transaction has been committed, it will remain so
+3. 
+4. Isolation - Executing transactions concurrently has the same results as if the transactions were executed serially
+5. Durability - Once a transaction has been committed, it will remain so
