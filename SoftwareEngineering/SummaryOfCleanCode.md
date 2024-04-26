@@ -154,6 +154,12 @@ protected VersionInfo makeVersion() throws Exception
 #### জার্নাল মন্তব্য
 
 #### গোলমাল মন্তব্য
+কিছু কমেন্টে গুরুত্বপূর্ণ কিছু থাকে না, শুধু গোলমাল মন্তব্য থাকে।
+```
+/**
+* Default constructor. */
+protected AnnualDateRule() { }
+```
 
 #### ভীতিকর মন্তব্য
 
