@@ -183,6 +183,15 @@ protected AnnualDateRule() { }
 ### হরইযোন্টাল ফরম্যাটিং
 
 ## অধ্যায় ৬ঃ অবজেক্ট এবং ডাটা স্ট্রাকচার
+### Data Abstraction
+### Data/Object Anti-Symmetry
+### The Law of Demeter
+### Train Wrecks
+### Hybrids
+### Hiding Structure
+### Data Transfer Objects
+### Active Record
+### Conclusion
 
 ## অধ্যায় ৭ঃ এরর হ্যান্ডলিং
 
