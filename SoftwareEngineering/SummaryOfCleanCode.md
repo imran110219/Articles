@@ -146,6 +146,17 @@ protected VersionInfo makeVersion() throws Exception
 #### Mumbling
 
 #### অপ্রয়োজনীয় মন্তব্য
+অনেক সময় কোডের উপরে এমন কমেন্ট লেখা হয় যেটা সম্পূর্ণ অপ্রয়োজনীয়। কোড কি কাজ করে সেটা বর্ণনা দেওয়ার জন্য অনেকে লিখে থাকে, সেটা কোড দেখেই বুঝতে পারা উচিত।
+```
+// Utility method that returns when this.closed is true. Throws an exception // if the timeout is reached.
+public synchronized void waitForClose(final long timeoutMillis) throws Exception {
+    if(!closed) {
+        wait(timeoutMillis);
+        if(!closed)
+            throw new Exception("MockResponseSender could not be closed");
+    }
+}
+```
 
 #### বিভ্রান্তিকর মন্তব্য
 
