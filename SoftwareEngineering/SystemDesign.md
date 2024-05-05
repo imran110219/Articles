@@ -98,8 +98,13 @@ Relational database management system (RDBMS) হল ডেটা সাজি�
 ডেটাবেজ স্কেলিং এর বিভিন্ন ধরনের পদ্ধতি আছে। যেমনঃ 
 
 **master-slave replication**
+
 **master-master replication**
+
 **federation** 
+
 **sharding** 
+
 **denormalization** 
+
 **SQL tuning**
