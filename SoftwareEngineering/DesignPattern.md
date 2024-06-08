@@ -49,6 +49,6 @@
 - [অবজারভার প্যাটার্ন (Observer Pattern)](DesignPattern/ObserverPattern.md)
 - [স্টেট প্যাটার্ন (State Pattern)](DesignPattern/StatePattern.md)
 - [স্ট্রাটেজি প্যাটার্ন (Strategy Pattern)](DesignPattern/StrategyPattern.md)
-- Template Pattern
+- [টেমপ্লেট প্যাটার্ন (Template Pattern)](DesignPattern/TemplatePattern.md)
 - Visitor Pattern
 - Null Object
