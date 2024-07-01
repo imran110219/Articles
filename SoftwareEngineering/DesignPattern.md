@@ -33,7 +33,7 @@
 - [ব্রিজ প্যাটার্ন(Bridge Pattern)](DesignPattern/BridgePattern.md)
 - [কম্পজিট প্যাটার্ন (Composite Pattern)](DesignPattern/CompositePattern.md)
 - [ডেকোরেটর প্যাটার্ন (Decorator Pattern)](DesignPattern/DecoratorPattern.md)
-- Facade Pattern
+- [Facade Pattern (ফ্যাসাড প্যাটার্ন)](DesignPattern/FacadePattern.md)
 - Flyweight Pattern
 - Proxy Pattern
 
