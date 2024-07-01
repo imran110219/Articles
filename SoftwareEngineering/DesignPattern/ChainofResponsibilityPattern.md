@@ -1,4 +1,4 @@
-# ফ্যাসাড প্যাটার্ন (Facade Pattern)
+# চেইন অফ রেসপনসিবিলিটি প্যাটার্ন (Chain of Responsibility Pattern)
 
 **উদাহরন**
 

@@ -40,7 +40,7 @@
 **বিহ্যাভিওরাল ডিজাইন প্যাটার্ন (Behavioral Design Pattern)**  
 বিহ্যাভিওরাল ডিজাইন প্যাটার্ন তৈরি করা হয় অবজেক্ট গুলোর ভেতরকার যোগাযোগ এবং কার্যাবলীর উপর লক্ষ্য রেখে। অবজেক্ট গুলো খুব সহজেই ভেতরকার তথ্য আদান প্রদান করে এবং একজনের পরিবর্তনের জন্য অন্য অবজেক্ট কার্যক্রম বাধাগ্রস্থ হয়না। তাদেরকে loosely coupled হতে হয়।
 
-- Chain of Responsibility Pattern
+- [Chain of Responsibility Pattern (চেইন অফ রেসপনসিবিলিটি প্যাটার্ন)](DesignPattern/ChainofResponsibilityPattern.md)
 - Command Pattern
 - Interpreter Pattern
 - Iterator Pattern
